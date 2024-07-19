@@ -156,6 +156,7 @@
         u ~ div .email-container {
           min-width: 320px !important;
         }
+        
       }
       /* iPhone 6, 6S, 7, 8, and X */
       @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
@@ -312,6 +313,12 @@
         }
         .darkmode-fullbleed-bg {
           background-color: #0f3016 !important;
+        }
+      }
+
+      @media screen and (min-width: 600px) {
+        .invisible {
+        display: none;
         }
       }
       /* Dark Mode Styles : END */
@@ -549,6 +556,7 @@
                                     line-height: 15px;
                                     margin: auto;
                                     display: block;
+                                    position: relative;
                                   "
                                   class="g-img"
                                   />
@@ -607,7 +615,7 @@
                                     height: auto;
                                     line-height: 15px;
                                     margin: auto;
-                                    display: block;
+                                    display: inline-block;
                                   "
                                   class="g-img"
                                   />
@@ -636,13 +644,14 @@
                                 display: block;
                                 margin-top: 6px;
                               "
-                              >
+                              ><span class="invisible"><br></span>
                               OnJ
                               <br>
                               Morning
                               <br>
                               Yoga
                               <br>
+                              <span class="invisible"><br></span>
                               <span
                                 style="
                               font-weight: 400;
@@ -667,6 +676,7 @@
                                     line-height: 15px;
                                     margin: auto;
                                     display: block;
+                                    position: relative;
                                   "
                                   class="g-img"
                                   />
@@ -695,7 +705,7 @@
                                 display: block;
                                 margin-top: 6px;
                               "
-                              >Liquid Love
+                              ><span class="invisible"><br></span>Liquid Love
                               <br>
                               Cocktail
                               <br>
@@ -788,7 +798,7 @@
                                 display: block;
                                 margin-top: 6px;
                               "
-                              >Lispoa - 
+                              > 
                               Handcrafted
                               <br>
                               Beer Tour
