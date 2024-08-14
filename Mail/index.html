@@ -75,6 +75,7 @@
         padding: 0 !important;
         height: 100% !important;
         width: 100% !important;
+        overflowx: hidden !important;
       }
 
       /* What it does: Stops email clients resizing small text. */
@@ -155,6 +156,7 @@
         u ~ div .email-container {
           min-width: 320px !important;
         }
+        
       }
       /* iPhone 6, 6S, 7, 8, and X */
       @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
@@ -313,6 +315,18 @@
           background-color: #0f3016 !important;
         }
       }
+
+      @media screen and (min-width: 600px) {
+        .invisible {
+        display: none;
+        }
+      }
+
+      @media screen and (max-width: 413px) {
+        .liquidlove {
+        display: none;
+        }
+      }
       /* Dark Mode Styles : END */
     </style>
     <!-- Progressive Enhancements : END -->
@@ -410,7 +424,36 @@
                 border="0"
                 width="100%"
               >
-                <!-- 1 Column Text : BEGIN -->
+                <!-- Hero Image, Flush : BEGIN -->
+                <tr>
+                  <td
+                    style="background-color: #ffffff; padding: 20px 0 30px"
+                    class="darkmode-bg"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/dzaugqdq4/image/upload/v1723632188/z49dykbjxsbthq1dzlku.jpg"
+                      width="556"
+                      height=""
+                      alt="alt_text"
+                      border="0"
+                      style="
+                        width: 100%;
+                        max-width: 556px;
+                        height: auto;
+                        background: #dddddd;
+                        font-family: 'Open Sans', Verdana, sans-serif;
+                        font-size: 15px;
+                        line-height: 15px;
+                        color: #5e696e;
+                        margin: auto;
+                        display: block;
+                      "
+                      class="g-img"
+                    />
+                  </td>
+                </tr>
+                <!-- Hero Image, Flush : END -->
+                 <!-- 1 Column Text : BEGIN -->
                 <tr>
                   <td style="background-color: #ffffff" class="darkmode-bg">
                     <table
@@ -447,9 +490,7 @@
                             class="text-small"
                             style="margin: 0 0 10px; font-size: 16px"
                           >
-                            We hope you enjoyed your stay as much as we enjoyed
-                            having you here at {enterpriseName} and we would
-                            love to have you back again soon.
+                          We want you to make the most out of your time here in Lisbon. Get to know our most recent free activities, especially curated for you, all within the hotel or nearby. Select wich of our free experiences you would like to participate.
                           </p>
                         </td>
                       </tr>
@@ -458,455 +499,8 @@
                 </tr>
                 <!-- 1 Column Text : END -->
 
-                <!-- Hero Image, Flush : BEGIN -->
-                <tr>
-                  <td
-                    style="background-color: #ffffff; padding: 20px 0 30px"
-                    class="darkmode-bg"
-                  >
-                    <img
-                      src="https://www.holidayonj.com/email/images/onj.jpg"
-                      width="556"
-                      height=""
-                      alt="alt_text"
-                      border="0"
-                      style="
-                        width: 100%;
-                        max-width: 556px;
-                        height: auto;
-                        background: #dddddd;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        font-size: 15px;
-                        line-height: 15px;
-                        color: #5e696e;
-                        margin: auto;
-                        display: block;
-                      "
-                      class="g-img"
-                    />
-                  </td>
-                </tr>
-                <!-- Hero Image, Flush : END -->
-
-                <!-- 1 Column Text : BEGIN -->
-                <tr>
-                  <td style="background-color: #ffffff" class="darkmode-bg">
-                    <table
-                      role="presentation"
-                      cellspacing="0"
-                      cellpadding="0"
-                      border="0"
-                      width="100%"
-                      class="table-top-presentation"
-                    >
-                      <tr>
-                        <td
-                          style="
-                            padding: 20px 0;
-                            font-family: 'Open Sans', Verdana, sans-serif;
-                            font-size: 18px;
-                            line-height: 28px;
-                            color: #5e696e;
-                            text-align: center;
-                          "
-                        >
-                          <h3
-                            style="
-                              margin: 0 0 10px;
-                              font-size: 20px;
-                              line-height: 30px;
-                              color: #1b2022;
-                              font-weight: 700;
-                            "
-                          >
-                            Returning Guest Gifts
-                          </h3>
-                          <p
-                            class="text-small"
-                            style="margin: 0 0 10px; font-size: 16px"
-                          >
-                            As a returning guest, we'd like to offer you the
-                            following gifts when you book your next stay
-                            directly with us:
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
-                <!-- Details Column Text : END -->
-
-                <!-- Custom Button Check-IN : BEGIN -->
-
-                <tbody>
-                  <tr>
-                    <td
-                      class="raisedButton button"
-                      style="
-                        background-color: #ffffff;
-                        border: 1px solid #e3eef3;
-                        color: #5e696e;
-                        border-radius: 10px;
-                        border-collapse: separate;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        text-align: center;
-                        border-radius: 6px;
-                      "
-                      width="260"
-                      height="0"
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      align="center"
-                    >
-                      <a
-                        style="
-                          color: #1b2022;
-                          display: block;
-                          text-decoration: none;
-                          font-weight: 600;
-                          vertical-align: middle;
-                          padding: 16px;
-                        "
-                        href="#"
-                      >
-                        <img
-                          width="25"
-                          height="25"
-                          style="vertical-align: middle; margin-right: 3px"
-                          src="https://img.icons8.com/ios-glyphs/30/1B2022/discount-ticket.png"
-                          alt="discount-ticket"
-                        />
-                        <span>A 5% Returning Guest Discount</span>
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-
                 <!-- Clear Spacer : BEGIN -->
-                <tr>
-                  <td
-                    aria-hidden="true"
-                    height="10"
-                    style="font-size: 0px; line-height: 0px"
-                  >
-                    &nbsp;
-                  </td>
-                </tr>
-                <!-- Clear Spacer : END -->
-
-                <tbody>
-                  <tr>
-                    <td
-                      class="raisedButton button"
-                      style="
-                        background-color: #ffffff;
-                        border: 1px solid #e3eef3;
-                        color: #5e696e;
-                        border-radius: 10px;
-                        border-collapse: separate;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        text-align: center;
-                        border-radius: 6px;
-                      "
-                      width="260"
-                      height="0"
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      align="center"
-                    >
-                      <a
-                        style="
-                          color: #1b2022;
-                          display: block;
-                          text-decoration: none;
-                          font-weight: 600;
-                          vertical-align: middle;
-                          padding: 16px;
-                        "
-                        href="#"
-                      >
-                        <img
-                          width="25"
-                          height="25"
-                          style="vertical-align: middle; margin-right: 3px"
-                          src="https://img.icons8.com/ios/50/1B2022/friends.png"
-                          alt="friends"
-                        />
-                        <span>An One Free Bed Guest for Extra Guest</span>
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-                <!-- Clear Spacer : BEGIN -->
-                <tr>
-                  <td
-                    aria-hidden="true"
-                    height="10"
-                    style="font-size: 0px; line-height: 0px"
-                  >
-                    &nbsp;
-                  </td>
-                </tr>
-                <!-- Clear Spacer : END -->
-
-                <tbody>
-                  <tr>
-                    <td
-                      class="raisedButton button"
-                      style="
-                        background-color: #ffffff;
-                        border: 1px solid #e3eef3;
-                        color: #5e696e;
-                        border-radius: 10px;
-                        border-collapse: separate;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        text-align: center;
-                        border-radius: 6px;
-                      "
-                      width="260"
-                      height="0"
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      align="center"
-                    >
-                      <a
-                        style="
-                          color: #1b2022;
-                          display: block;
-                          text-decoration: none;
-                          font-weight: 600;
-                          vertical-align: middle;
-                          padding: 16px;
-                        "
-                        href="#"
-                      >
-                        <img
-                          width="25"
-                          height="25"
-                          style="vertical-align: middle; margin-right: 3px"
-                          src="https://img.icons8.com/fluency-systems-regular/48/1B2022/dog-footprint.png"
-                          alt="dog-footprint"
-                        />
-                        <span>A free pet stay</span>
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-                <!-- Clear Spacer : BEGIN -->
-                <tr>
-                  <td
-                    aria-hidden="true"
-                    height="10"
-                    style="font-size: 0px; line-height: 0px"
-                  >
-                    &nbsp;
-                  </td>
-                </tr>
-                <!-- Clear Spacer : END -->
-
-                <tbody>
-                  <tr>
-                    <td
-                      class="raisedButton button"
-                      style="
-                        background-color: #ffffff;
-                        border: 1px solid #e3eef3;
-                        color: #5e696e;
-                        border-radius: 10px;
-                        border-collapse: separate;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        text-align: center;
-                        border-radius: 6px;
-                      "
-                      width="260"
-                      height="0"
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      align="center"
-                    >
-                      <a
-                        style="
-                          color: #1b2022;
-                          display: block;
-                          text-decoration: none;
-                          font-weight: 600;
-                          vertical-align: middle;
-                          padding: 16px;
-                        "
-                        href="mailto:team@holidayonj.com?subject=Please%20book%20my%20Early%20Check-In&body=Normal%20check-in%20time%20is%20at%204PM%20if%20you%20to%20wish%20to%20enter%20your%20apartment%20from%202PM%20onwards%20you%20can%20send%20the%20email%20bellow%20to%20our%20team.%20We%20will%20confirm%20if%20it%20is%20possible%20closer%20to%20the%20date.%0A%20%0AEarly%20Check-In%20request%20from%202PM%20onwards%2025EUR.%0AName%3A%20{name}%0AConfirmation%3A%20{confirmationNumber}"
-                      >
-                        <img
-                          width="25"
-                          ß
-                          height="25"
-                          style="vertical-align: middle; margin-right: 3px"
-                          src="https://www.holidayonj.com/email/images/arriving-before.png"
-                          alt="arriving-before"
-                        />
-                        <span>Free early check-in</span>
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-                <!-- Clear Spacer : BEGIN -->
-                <tr>
-                  <td
-                    aria-hidden="true"
-                    height="10"
-                    style="font-size: 0px; line-height: 0px"
-                  >
-                    &nbsp;
-                  </td>
-                </tr>
-                <!-- Clear Spacer : END -->
-
-                <tbody>
-                  <tr>
-                    <td
-                      class="raisedButton button"
-                      style="
-                        background-color: #ffffff;
-                        border: 1px solid #e3eef3;
-                        color: #5e696e;
-                        border-radius: 10px;
-                        border-collapse: separate;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        text-align: center;
-                        border-radius: 6px;
-                      "
-                      width="260"
-                      height="0"
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      align="center"
-                    >
-                      <a
-                        style="
-                          color: #1b2022;
-                          display: block;
-                          text-decoration: none;
-                          font-weight: 600;
-                          vertical-align: middle;
-                          padding: 16px;
-                        "
-                        href="mailto:team@holidayonj.com?subject=Please%20book%20my%20Late%20Check-Out&body=Normal%20check-ou%20time%20is%20at%2011AM%20if%20you%20to%20wish%20to%20sleep%20a%20little%20longer%20until%201PM%20you%20can%20send%20the%20email%20bellow%20to%20our%20team.%20We%20will%20confirm%20if%20it%20is%20possible%20closer%20to%20the%20date.%0A%20%0ALate%20Check-Out%20request%20until%201PM%20%2025EUR.%0AName%3A%20{name}%0AConfirmation%3A%20{confirmationNumber}"
-                      >
-                        <img
-                          width="25"
-                          height="25"
-                          style="vertical-align: middle; margin-right: 3px"
-                          src="https://www.holidayonj.com/email/images/leaving-before.png"
-                          alt="leaving-before"
-                        />
-                        <span>Free late check-out</span>
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-                <!-- Custom Button Check-IN : END -->
-
-                <!-- Clear Spacer : BEGIN -->
-                <tr>
-                  <td
-                    aria-hidden="true"
-                    height="10"
-                    style="font-size: 0px; line-height: 0px"
-                  >
-                    &nbsp;
-                  </td>
-                </tr>
-                <!-- Clear Spacer : END -->
-                <!-- 1 Column Text : BEGIN -->
-                <tr>
-                  <td style="background-color: #ffffff" class="darkmode-bg">
-                    <table
-                      role="presentation"
-                      cellspacing="0"
-                      cellpadding="0"
-                      border="0"
-                      width="100%"
-                      class="table-top-presentation"
-                    >
-                      <tr>
-                        <td
-                          style="
-                            padding: 20px 0;
-                            font-family: 'Open Sans', Verdana, sans-serif;
-                            font-size: 18px;
-                            line-height: 28px;
-                            color: #5e696e;
-                            text-align: center;
-                          "
-                        >
-                          <p
-                            class="text-small"
-                            style="margin: 0 0 10px; font-size: 16px"
-                          >
-                            Your feedback is so importante for us, please share:
-                          </p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
-                <tbody>
-                  <tr>
-                    <td
-                      class="raisedButton button"
-                      style="
-                        background-color: #000000;
-                        border-collapse: separate;
-                        font-family: 'Open Sans', Verdana, sans-serif;
-                        border-radius: 6px;
-                        text-align: center; /* Center align the content */
-                      "
-                      width="260"
-                      height="0"
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      align="center"
-                    >
-                      <a
-                        style="
-                          color: #ffffff;
-                          display: inline-block;
-                          text-decoration: none;
-                          font-weight: 600;
-                          vertical-align: middle;
-                          padding: 16px;
-                        "
-                        href="https://linktr.ee/onjstays?utm_source=qr_code"
-                        target="_blank"
-                      >
-                        <img
-                          width="25"
-                          height="25"
-                          style="vertical-align: middle; margin-right: 3px"
-                          src="https://img.icons8.com/ios/50/FFFFFF/popular-topic.png"
-                          alt="discount-ticket"
-                        />
-                        <span> Share Your Feedback </span>
-                      </a>
-                    </td>
-                  </tr>
-                </tbody>
-                <!-- Details Column Text : END -->
-
-                <!-- Clear Spacer : BEGIN -->
+                <!--
                 <tr>
                   <td
                     aria-hidden="true"
@@ -916,8 +510,441 @@
                     &nbsp;
                   </td>
                 </tr>
+                -->
                 <!-- Clear Spacer : END -->
+                <tr>
+                  <td
+                    style="
+                      padding: 0;
+                      color: #ffffff;
+                      font-size: 14px;
+                      line-height: 22px;
+                      font-family: 'Open Sans', Verdana, sans-serif;
+                    "
+                  >
+                    <table
+                      role="presentation"
+                      cellspacing="0"
+                      cellpadding="0"
+                      border="0"
+                      width="100%"
+                    >
+                    <div
+                            style="
+                              border-top: 2px solid #969696;
+                              width: 100%;
+                              margin: 10px auto 10px;
+                            "
+                      ></div>
+                      <tr>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="20"
+                            border="0"
+                          >
+                            <tr>
+                              <td>
+                                <a href="mailto:hello@holidayonj.com?bcc=accounting&subject=Book%20Experience&body=Book%20my%20free%20experience.%0D%0A%0D%0ANumber%20of%20participants%3A%0D%0AExperience%20name%3A%20Royal%20Rawness%20-%20Coffee%20Experience%0D%0A%0D%0A(Please%20note%20this%20is%20subject%20to%20confirmation%20and%20must%20be%20booked%20at%20least%2024h%20before)">
+                                  <img
+                                    src="https://res.cloudinary.com/dzaugqdq4/image/upload/v1723632187/zobidooibxyuaeoe2d82.png"
+                                    width="150"
+                                    alt="CoffeeRosters"
+                                    style="
+                                    width: 100%;
+                                    max-width: 556px;
+                                    height: auto;
+                                    line-height: 15px;
+                                    margin: auto;
+                                    display: block;
+                                    position: relative;
+                                  "
+                                  class="g-img"
+                                  />
+                                </a>
+                                <p
+                            class="small-title"
+                            style="
+                              text-align: center;
+                              color: #6a9385;
+                              margin: 0 0 6px;
+                              font-family: 'Open Sans', Verdana, sans-serif;
+                              font-weight: 400;
+                            "
+                          >
+                            Mon / 2pm
+                            <br>
+                            <i>
+                            30 minutes
+                          </i>
+                            <strong
+                              style="
+                                color: #1b2022;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 1.4;
+                                display: block;
+                                margin-top: 6px;
+                              "
+                              >Royal Rawness
+                              <br>
+                              Coffee Roasting
+                              <br>
+                              and Tasting
+                              <br>
+                              <span
+                                style="
+                              font-weight: 400;
+                              "
+                              >
+                              By Bus
+                              </span>
+                              </strong
+                            >
+                          </p>
+                              </td>
+      
+                              <td>
+                                <a href="mailto:hello@holidayonj.com?bcc=accounting&subject=Book%20Experience&body=Book%20my%20free%20experience.%0D%0A%0D%0ANumber%20of%20participants%3A%0D%0AExperience%20name%3A%20OnJ%20Morning%20Yoga%0D%0A(Please%20note%20this%20is%20subject%20to%20confirmation%20and%20must%20be%20booked%20at%20least%2024h%20before)">
+                                  <img
+                                    src="https://res.cloudinary.com/dzaugqdq4/image/upload/v1723632107/xz0ar7pzufymdjgcuqo1.png"
+                                    width="150"
+                                    alt="Onj boutique apartaments"
+                                    style="
+                                    width: 100%;
+                                    max-width: 556px;
+                                    height: auto;
+                                    line-height: 15px;
+                                    margin: auto;
+                                    display: inline-block;
+                                  "
+                                  class="g-img"
+                                  />
+                                </a>
+                                <p
+                            class="small-title"
+                            style="
+                              text-align: center;
+                              color: #6a9385;
+                              margin: 0 0 6px;
+                              font-family: 'Open Sans', Verdana, sans-serif;
+                              font-weight: 400;
+                            "
+                          >
+                            Tue / 7am
+                            <br>
+                            <i>
+                            1 hour
+                          </i>
+                            <strong
+                              style="
+                                color: #1b2022;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 1.4;
+                                display: block;
+                                margin-top: 6px;
+                              "
+                              ><span class="invisible"><br></span>
+                              OnJ
+                              <br>
+                              Morning
+                              <br>
+                              Yoga
+                              <br>
+                              <span class="invisible"><br></span>
+                              <span
+                                style="
+                              font-weight: 400;
+                              "
+                              >
+                              At the Hotel
+                              </span>
+                              </strong
+                            >
+                          </p>
+                              </td>
+                              <td>
+                                <a href="mailto:hello@holidayonj.com?bcc=accounting&subject=Book%20Experience&body=Book%20my%20free%20experience.%0D%0A%0D%0ANumber%20of%20participants%3A%0D%0AExperience%20name%3A%20Liquid%20Love%0D%0A(Please%20note%20this%20is%20subject%20to%20confirmation%20and%20must%20be%20booked%20at%20least%2024h%20before)">
+                                  <img
+                                    src="https://res.cloudinary.com/dzaugqdq4/image/upload/v1723632189/s2h693yjreqtol5ctylo.png"
+                                    width="150"
+                                    alt="ONJ Liquid Love"
+                                    style="
+                                    width: 100%;
+                                    max-width: 556px;
+                                    height: auto;
+                                    line-height: 15px;
+                                    margin: auto;
+                                    display: block;
+                                    position: relative;
+                                  "
+                                  class="g-img"
+                                  />
+                                </a>
+                                <p
+                            class="small-title"
+                            style="
+                              text-align: center;
+                              color: #6a9385;
+                              margin: 0 0 6px;
+                              font-family: 'Open Sans', Verdana, sans-serif;
+                              font-weight: 400;
+                            "
+                          >
+                            Wed / 6:30pm
+                            <br>
+                            <i>
+                            30 minutes
+                          </i>
+                            <strong
+                              style="
+                                color: #1b2022;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 1.4;
+                                display: block;
+                                margin-top: 6px;
+                              "
+                              ><span class="invisible liquidlove"><br></span>Liquid Love
+                              <br>
+                              Cocktail
+                              <span class="liquidlove"><br></span>
+                              Design Tour
+                              <br>
+                              <span
+                                style="
+                              font-weight: 400;
+                              "
+                              >
+                              Walking Distance
+                              </span>
+                              </strong
+                            >
+                          </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style="
+                      padding: 0px 30px 2px;
+                      color: #ffffff;
+                      font-size: 14px;
+                      line-height: 22px;
+                      font-family: 'Open Sans', Verdana, sans-serif;
+                    "
+                  >
+                    <table
+                      role="presentation"
+                      cellspacing="0"
+                      cellpadding="0"
+                      border="0"
+                      width="100%"
+                    >
+                      <tr>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <table
+                            role="presentation"
+                            cellspacing="0"
+                            cellpadding="20"
+                            border="0"
+                          >
+                            <tr>
+                              <td>
+                                <a href="mailto:hello@holidayonj.com?bcc=accounting&subject=Book%20Experience&body=Book%20my%20free%20experience.%0D%0A%0D%0ANumber%20of%20participants%3A%0D%0AExperience%20name%3A%20Lispoa%0D%0A(Please%20note%20this%20is%20subject%20to%20confirmation%20and%20must%20be%20booked%20at%20least%2024h%20before)">
+                                  <img
+                                    src="https://res.cloudinary.com/dzaugqdq4/image/upload/v1723632188/xt8fqvgcudw6yoo1ahlu.png"
+                                    width="150"
+                                    alt="Onj Craft Beer."
+                                    style="
+                                    width: 65%;
+                                    max-width: 556px;
+                                    height: auto;
+                                    line-height: 15px;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                  class="g-img"
+                                  />
+                                </a>
+                                <p
+                            class="small-title"
+                            style="
+                              text-align: center;
+                              margin: 0 0 6px;
+                              color: #6a9385;
+                              font-family: 'Open Sans', Verdana, sans-serif;
+                              font-weight: 400;
+                            "
+                          >
+                            Thu / 5pm
+                            <br>
+                          <i>
+                            30 minutes
+                          </i>
+                            <strong
+                              style="
+                                color: #1b2022;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 1.4;
+                                display: block;
+                                margin-top: 6px;
+                              "
+                              > 
+                              Handcrafted
+                              <br>
+                              Beer Tour
+                              <br>
+                              <span
+                                style="
+                              font-weight: 400;
+                              "
+                              >
+                              Walking Distance
+                              </span>
+                              </strong
+                            >
+                          </p>
+                              </td>
+                              <td>
+                                  <a href="mailto:hello@holidayonj.com?bcc=accounting&subject=Book%20Experience&body=Book%20my%20free%20experience.%0D%0A%0D%0ANumber%20of%20participants%3A%0D%0AExperience%20name%3A%20OnJ%20Kitchen%20Cookie%20Experience%0D%0A(Please%20note%20this%20is%20subject%20to%20confirmation%20and%20must%20be%20booked%20at%20least%2024h%20before)">
+                                    <img
+                                      src="https://res.cloudinary.com/dzaugqdq4/image/upload/v1723632189/xqwbizexr0gqhfnp4fhp.png"
+                                      width="150"
+                                      alt="Onj Cookie Experience."
+                                      style="
+                                    width: 65%;
+                                    max-width: 556px;
+                                    height: auto;
+                                    line-height: 15px;
+                                    margin: auto;
+                                    display: block;
+                                  "
+                                  class="g-img"
+                                    />
+                                  </a>
+                                  <p
+                              class="small-title"
+                              style="
+                                text-align: center;
+                                color: #6a9385;
+                                margin: 0 0 6px;
+                                font-family: 'Open Sans', Verdana, sans-serif;
+                                font-weight: 400;
+                              "
+                            >
+                              Fri / 3pm
+                              <br>
+                              <i>
+                              30 minutes
+                              </i>
+                              <strong
+                                style="
+                                  color: #1b2022;
+                                  font-weight: 700;
+                                  font-size: 14px;
+                                  line-height: 1.4;
+                                  display: block;
+                                  margin-top: 6px;
+                                "
+                                >OnJ Kitchen
+                                <br>
+                                Cookie 
+                                Experience
+                                <br>
+                                <span
+                                  style="
+                                font-weight: 400;
+                                "
+                                >
+                                At the Hotel
+                                </span>
+                                </strong
+                              >
+                            </p>
+                                </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
 
+                <!-- Events : END -->
+                <tbody>
+                  <tr>
+                    <td>
+                      <a
+                      style="
+                        width: 175px;
+                        background-color: #598777;
+                        margin: 20px auto;
+                        border-collapse: separate;
+                        font-family: 'Open Sans', Verdana, sans-serif;
+                        text-align: center;
+                        border-radius: 24px;
+                        color: #ffffff;
+                        display: block;
+                        text-decoration: none;
+                        font-weight: 600;
+                        vertical-align: middle;
+                        padding: 12px;
+                        "
+                        href="mailto:hello@holidayonj.com?bcc=accounting&subject=Book%20Experience&body=Book%20my%20free%20experience.%0D%0A%0D%0A%0D%0ANumber%20of%20people%3A%0D%0AExperience%20name%3A%0D%0A%0D%0A(Please%20note%20this%20is%20subject%20to%20confirmation%20and%20must%20be%20booked%20at%20least%2024h%20before)"
+                      >
+                        Book Now
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+
+                <tr>
+                  <td style="background-color: #ffffff" class="darkmode-bg">
+                    <table
+                      role="presentation"
+                      cellspacing="0"
+                      cellpadding="0"
+                      border="0"
+                      width="100%"
+                      class="table-top-presentation"
+                    >
+                      <tr>
+                        <td
+                          style="
+                            padding: 20px 0;
+                            font-family: 'Open Sans', Verdana, sans-serif;
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #3c4858;
+                            text-align: center;
+                          "
+                        >
+                          <p
+                            class="text-small"
+                            style="margin: 0 0 10px; font-size: 16px"
+                          >
+                          <i>
+                          Please book 24 hours in advance. Subject to confirmation and availability.
+                          </i>
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
                 <!-- Site links : BEGIN -->
                 <tr>
                   <td>
